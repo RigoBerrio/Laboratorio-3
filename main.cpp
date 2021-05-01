@@ -21,6 +21,11 @@ case 11: {
     }
     break;
 
+    case 12: {
+        int num[9]={4,9,2,3,5,7,8,1,6};
+        cout<< problema12(num,9)<<endl;
+    }
+
     case 15: {
         int rectangulo1[4]={};
         int rectangulo2[4]={};
@@ -47,7 +52,7 @@ case 11: {
         cout << "Ingrese la altura del segundo rectangulo " << endl;
         cin >> rectangulo2[3];
         cout<<endl;
-        problema15(rectangulo1,rectangulo2);
+        cout<<problema15(rectangulo1,rectangulo2)<<endl;
 
     }
 
